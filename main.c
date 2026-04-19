@@ -81,7 +81,7 @@ int main() {
     } else if (choice == 2) {
         char input[64];
         printf("Enter text (max 16 chars): ");
-        scanf("%16s", input);
+        scanf(" %15[^\n]", input);
  
         /* Pad or truncate to exactly 16 bytes */
         unsigned char plaintext[16];

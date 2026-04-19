@@ -1,7 +1,7 @@
 /*
  Darren Grants
  C21427252
- */
+*/
 
 #ifndef RIJNDAEL_H
 #define RIJNDAEL_H
