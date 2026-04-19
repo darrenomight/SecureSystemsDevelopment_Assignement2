@@ -13,6 +13,6 @@ jobs:
           sudo apt install -y build-essential python-is-python3 python3-pytest
           make
       - name: Run main
-        run: ./main
+        run: echo "1" | ./main
       - name: Run tests
         run: pytest test_rijndael.py -v
