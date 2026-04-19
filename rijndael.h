@@ -1,6 +1,6 @@
 /*
- * TODO: Add your name and student number here, along with
- *       a brief description of this code.
+ Darren Grants 
+ C21427252
  */
 
 #ifndef RIJNDAEL_H

@@ -1,3 +1,10 @@
+/*
+  Darren Grants
+  C21427252
+  Rijndael (AES) implementation in C.
+  Implements AES-128, AES-256, and AES-512 block encryption and decryption.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
