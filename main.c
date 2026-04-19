@@ -34,7 +34,8 @@ int main() {
                            75, 17, 51, 17, 4,  8, 6,  99};
 
   unsigned char *ciphertext = aes_encrypt_block(plaintext, key, AES_BLOCK_128);
-  unsigned char *recovered_plaintext = aes_decrypt_block(ciphertext, key, AES_BLOCK_128);
+  unsigned char *recovered_plaintext =
+      aes_decrypt_block(ciphertext, key, AES_BLOCK_128);
 
   printf("############ ORIGINAL PLAINTEXT ###########\n");
   print_block(plaintext, AES_BLOCK_128);
