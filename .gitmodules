@@ -1,0 +1,3 @@
+[submodule "aes-ref"]
+	path = aes-ref
+	url = https://github.com/boppreh/aes.git
